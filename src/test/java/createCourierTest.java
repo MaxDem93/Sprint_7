@@ -7,7 +7,7 @@ import org.junit.Test;
 import static org.apache.http.HttpStatus.*;
 import static org.junit.Assert.assertEquals;
 
-public class createCourierTest {
+public class createCourierTest { //Courier
     static int id;
     Courier courier = new Courier("qaTestHTF_001", "0526", "Khuzyagulov");
     static CourierApi courierApi;

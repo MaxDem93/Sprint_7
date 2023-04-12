@@ -2,7 +2,7 @@ import io.restassured.response.ValidatableResponse;
 
 import static io.restassured.RestAssured.given;
 
-public class CourierApi extends Client{
+public class CourierApi extends Client{ //api
 
     private static final String PATH_CREATE = "/api/v1/courier";
     private static final String PATH_LOGIN = "/api/v1/courier/login";

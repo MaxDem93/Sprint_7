@@ -11,7 +11,7 @@ import static org.junit.Assert.assertNotNull;
 
 
 @RunWith(Parameterized.class)
-public class createOrderTest {
+public class createOrderTest { //Order
 
     static OrderApi orderApi;
     final private String firstNameParam;

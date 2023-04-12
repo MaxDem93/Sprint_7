@@ -45,6 +45,7 @@ public class Order {
         this.deliveryDate = deliveryDate;
         this.comment = comment;
     }
+    //get and set
     public String getFirstName() {
         return firstName;
     }

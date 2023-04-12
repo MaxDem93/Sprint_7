@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
 //Тест для логина курьера
-public class loginCourierTest {
+public class loginCourierTest { //login
 
     //Courier courier = new Courier("qaTestHTF2", "0526", "Khuzyagulov");
     Courier courier = new Courier("qaja", "1234", "qa_java");
