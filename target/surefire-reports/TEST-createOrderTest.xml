@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="createOrderTest" time="6.32" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="createOrderTest" time="4.652" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.17_8\bin"/>
-    <property name="sun.java.command" value="C:\Users\Maria\AppData\Local\Temp\surefire6003437168447184580\surefirebooter18006699481661392384.jar C:\Users\Maria\AppData\Local\Temp\surefire6003437168447184580 2023-04-12T23-26-04_104-jvmRun1 surefire4250132723095899165tmp surefire_013068474852627540536tmp"/>
+    <property name="sun.java.command" value="C:\Users\Maria\AppData\Local\Temp\surefire3816591525591843694\surefirebooter17169135604332456505.jar C:\Users\Maria\AppData\Local\Temp\surefire3816591525591843694 2023-04-12T23-51-25_346-jvmRun1 surefire14521412356889913299tmp surefire_011916972946746858670tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Maria\Sprint_7\target\test-classes;C:\Users\Maria\Sprint_7\target\classes;C:\Users\Maria\.m2\repository\io\qameta\allure\allure-junit4\2.15.0\allure-junit4-2.15.0.jar;C:\Users\Maria\.m2\repository\io\qameta\allure\allure-java-commons\2.15.0\allure-java-commons-2.15.0.jar;C:\Users\Maria\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Maria\.m2\repository\io\qameta\allure\allure-model\2.15.0\allure-model-2.15.0.jar;C:\Users\Maria\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.5\jackson-databind-2.9.5.jar;C:\Users\Maria\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Maria\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.5\jackson-core-2.9.5.jar;C:\Users\Maria\.m2\repository\io\qameta\allure\allure-rest-assured\2.15.0\allure-rest-assured-2.15.0.jar;C:\Users\Maria\.m2\repository\io\qameta\allure\allure-attachments\2.15.0\allure-attachments-2.15.0.jar;C:\Users\Maria\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\Maria\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Maria\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Maria\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Maria\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Maria\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Maria\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Maria\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Maria\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Maria\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Maria\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Maria\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Maria\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Maria\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Maria\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Maria\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Maria\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Maria\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Maria\AppData\Local\Temp\surefire6003437168447184580\surefirebooter18006699481661392384.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Maria\AppData\Local\Temp\surefire3816591525591843694\surefirebooter17169135604332456505.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.17+8-LTS"/>
@@ -62,16 +62,16 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="createOrderTest[Тестовые данные: Max Demidov str.Lenina Uralmash +79999999999 5 2023-04-16 No comments]" classname="createOrderTest" time="0.405"/>
-  <testcase name="createOrderManyColor[Тестовые данные: Max Demidov str.Lenina Uralmash +79999999999 5 2023-04-16 No comments]" classname="createOrderTest" time="0.379"/>
-  <testcase name="createOrderOneColor[Тестовые данные: Max Demidov str.Lenina Uralmash +79999999999 5 2023-04-16 No comments]" classname="createOrderTest" time="0.325"/>
-  <testcase name="createOrderWithOutColor[Тестовые данные: Max Demidov str.Lenina Uralmash +79999999999 5 2023-04-16 No comments]" classname="createOrderTest" time="0.345"/>
-  <testcase name="createOrderTest[Тестовые данные: Sasha Korolev str.Kalinina 1905 goda +79999999999 5 2023-04-15 comment 1]" classname="createOrderTest" time="0.426"/>
-  <testcase name="createOrderManyColor[Тестовые данные: Sasha Korolev str.Kalinina 1905 goda +79999999999 5 2023-04-15 comment 1]" classname="createOrderTest" time="0.383"/>
-  <testcase name="createOrderOneColor[Тестовые данные: Sasha Korolev str.Kalinina 1905 goda +79999999999 5 2023-04-15 comment 1]" classname="createOrderTest" time="0.409"/>
-  <testcase name="createOrderWithOutColor[Тестовые данные: Sasha Korolev str.Kalinina 1905 goda +79999999999 5 2023-04-15 comment 1]" classname="createOrderTest" time="0.36"/>
-  <testcase name="createOrderTest[Тестовые данные: Gordei Ivanov str.Mira Geologicheskaya +79999999999 5 2023-04-14 comment 2]" classname="createOrderTest" time="0.337"/>
-  <testcase name="createOrderManyColor[Тестовые данные: Gordei Ivanov str.Mira Geologicheskaya +79999999999 5 2023-04-14 comment 2]" classname="createOrderTest" time="0.515"/>
-  <testcase name="createOrderOneColor[Тестовые данные: Gordei Ivanov str.Mira Geologicheskaya +79999999999 5 2023-04-14 comment 2]" classname="createOrderTest" time="0.804"/>
-  <testcase name="createOrderWithOutColor[Тестовые данные: Gordei Ivanov str.Mira Geologicheskaya +79999999999 5 2023-04-14 comment 2]" classname="createOrderTest" time="0.84"/>
+  <testcase name="createOrderTest[Тестовые данные: Max Demidov str.Lenina Uralmash +79999999999 5 2023-04-16 No comments]" classname="createOrderTest" time="0.357"/>
+  <testcase name="createOrderManyColor[Тестовые данные: Max Demidov str.Lenina Uralmash +79999999999 5 2023-04-16 No comments]" classname="createOrderTest" time="0.341"/>
+  <testcase name="createOrderOneColor[Тестовые данные: Max Demidov str.Lenina Uralmash +79999999999 5 2023-04-16 No comments]" classname="createOrderTest" time="0.462"/>
+  <testcase name="createOrderWithOutColor[Тестовые данные: Max Demidov str.Lenina Uralmash +79999999999 5 2023-04-16 No comments]" classname="createOrderTest" time="0.41"/>
+  <testcase name="createOrderTest[Тестовые данные: Sasha Korolev str.Kalinina 1905 goda +79999999999 5 2023-04-15 comment 1]" classname="createOrderTest" time="0.378"/>
+  <testcase name="createOrderManyColor[Тестовые данные: Sasha Korolev str.Kalinina 1905 goda +79999999999 5 2023-04-15 comment 1]" classname="createOrderTest" time="0.354"/>
+  <testcase name="createOrderOneColor[Тестовые данные: Sasha Korolev str.Kalinina 1905 goda +79999999999 5 2023-04-15 comment 1]" classname="createOrderTest" time="0.344"/>
+  <testcase name="createOrderWithOutColor[Тестовые данные: Sasha Korolev str.Kalinina 1905 goda +79999999999 5 2023-04-15 comment 1]" classname="createOrderTest" time="0.348"/>
+  <testcase name="createOrderTest[Тестовые данные: Gordei Ivanov str.Mira Geologicheskaya +79999999999 5 2023-04-14 comment 2]" classname="createOrderTest" time="0.365"/>
+  <testcase name="createOrderManyColor[Тестовые данные: Gordei Ivanov str.Mira Geologicheskaya +79999999999 5 2023-04-14 comment 2]" classname="createOrderTest" time="0.448"/>
+  <testcase name="createOrderOneColor[Тестовые данные: Gordei Ivanov str.Mira Geologicheskaya +79999999999 5 2023-04-14 comment 2]" classname="createOrderTest" time="0.41"/>
+  <testcase name="createOrderWithOutColor[Тестовые данные: Gordei Ivanov str.Mira Geologicheskaya +79999999999 5 2023-04-14 comment 2]" classname="createOrderTest" time="0.298"/>
 </testsuite>
