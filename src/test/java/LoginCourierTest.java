@@ -7,10 +7,10 @@ import static org.apache.http.HttpStatus.*;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
-//Тест для логина курьера
-public class loginCourierTest {
 
-    //Courier courier = new Courier("qaTestHTF2", "0526", "Khuzyagulov");
+public class LoginCourierTest {
+
+
     Courier courier = new Courier("qaja", "1234", "qa_java");
     CourierApi courierApi;
     @Before
@@ -18,8 +18,8 @@ public class loginCourierTest {
         courierApi = new CourierApi();
     }
     @Test
-    @DisplayName("Проверка успешной авторизации курьера") // имя теста
-    @Description("Проверка того, в резултате успешной авторизации возвращается не пустой id") // описание теста
+    @DisplayName("Проверка успешной авторизации курьера")
+    @Description("Проверка того, в резултате успешной авторизации возвращается не пустой id")
     public void authCourierSuccessTest() {
         ValidatableResponse response = courierApi.login(courier);
         int statusCode = response.extract().statusCode();
@@ -28,8 +28,8 @@ public class loginCourierTest {
         assertNotNull(valId);
     }
     @Test
-    @DisplayName("Проверка авторизации курьера без логина") // имя теста
-    @Description("Проверка авторизации курьера без указания логина") // описание теста
+    @DisplayName("Проверка авторизации курьера без логина")
+    @Description("Проверка авторизации курьера без указания логина")
     public void authCourierWithOutLoginTest() {
         Courier courierWithOutLogin = new Courier("", "1234", "");
         ValidatableResponse response = courierApi.login(courierWithOutLogin);
@@ -39,8 +39,8 @@ public class loginCourierTest {
         assertEquals("Недостаточно данных для входа", valMessage);
     }
     @Test
-    @DisplayName("Проверка авторизации курьера без пароля") // имя теста
-    @Description("Проверка авторизации курьера без указания пароля") // описание теста
+    @DisplayName("Проверка авторизации курьера без пароля")
+    @Description("Проверка авторизации курьера без указания пароля")
     public void authCourierWithOutPasswordTest() {
         Courier courierWithOutPassword = new Courier("TestQA", "", "");
         ValidatableResponse response = courierApi.login(courierWithOutPassword);
@@ -49,8 +49,8 @@ public class loginCourierTest {
         assertEquals(SC_BAD_REQUEST, statusCode);
     }
     @Test
-    @DisplayName("Проверка авторизации курьера с неправильным паролем") // имя теста
-    @Description("Проверка авторизации курьера с неправильным паролем") // описание теста
+    @DisplayName("Проверка авторизации курьера с неправильным паролем")
+    @Description("Проверка авторизации курьера с неправильным паролем")
     public void authCourierIncorrectPasswordTest() {
         Courier courierIncorrectPassword = new Courier("qaja", "12345", "qa_java");
         ValidatableResponse response = courierApi.login(courierIncorrectPassword);
@@ -61,8 +61,8 @@ public class loginCourierTest {
         assertEquals("Учетная запись не найдена", valMessage);
     }
     @Test
-    @DisplayName("Проверка авторизации курьера с неправильным или не существующим логином") // имя теста
-    @Description("Проверка авторизации курьера с неправильным или не существующим логином") // описание теста
+    @DisplayName("Проверка авторизации курьера с неправильным или не существующим логином")
+    @Description("Проверка авторизации курьера с неправильным или не существующим логином")
     public void authCourierIncorrectLoginTest() {
         Courier courierIncorrectLogin = new Courier("qaja_bad_login", "1234", "qa_java");
 
