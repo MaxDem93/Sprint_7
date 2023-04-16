@@ -7,7 +7,7 @@ import org.junit.Test;
 import static org.apache.http.HttpStatus.*;
 import static org.junit.Assert.assertEquals;
 
-public class createCourierTest { //Courier
+public class CreateCourierTest {
     static int id;
     Courier courier = new Courier("qaTestHTF_001", "0526", "Khuzyagulov");
     static CourierApi courierApi;
@@ -20,8 +20,8 @@ public class createCourierTest { //Courier
         courierApi.delete(id);
     }
     @Test
-    @DisplayName("Проверка создания курьера") // имя теста
-    @Description("Проверка того, что курьер успешно создается") // описание теста
+    @DisplayName("Проверка создания курьера")
+    @Description("Проверка того, что курьер успешно создается")
     public void createCourierAnswerTest() {
         ValidatableResponse response = courierApi.create(courier);
         int statusCode = response.extract().statusCode();
@@ -33,8 +33,8 @@ public class createCourierTest { //Courier
         id = responseLogin.extract().path("id");
     }
     @Test
-    @DisplayName("Проверка создания второго одинакового курьера") // имя теста
-    @Description("Проверка создания второго одинакового курьера с существующим логином") // описание теста
+    @DisplayName("Проверка создания второго одинакового курьера")
+    @Description("Проверка создания второго одинакового курьера с существующим логином")
     public void createDoubleCourierTest() {
         Courier courierDouble = new Courier("qaja4test", "1234", "qa_java");
         ValidatableResponse response = courierApi.create(courierDouble);
@@ -45,8 +45,8 @@ public class createCourierTest { //Courier
         assertEquals("Этот логин уже используется. Попробуйте другой.", valMessage);
     }
     @Test
-    @DisplayName("Проверка создания курьера без логина") // имя теста
-    @Description("Проверка создания курьера без логина") // описание теста
+    @DisplayName("Проверка создания курьера без логина")
+    @Description("Проверка создания курьера без логина")
     public void createCourierWithOutLoginTest() {
         Courier courierWithOutLogin = new Courier("", "1234", "courierWithOutLogin");
         ValidatableResponse response = courierApi.create(courierWithOutLogin);
@@ -57,8 +57,8 @@ public class createCourierTest { //Courier
         assertEquals("Недостаточно данных для создания учетной записи", valMessage);
     }
     @Test
-    @DisplayName("Проверка создания курьера без пароля") // имя теста
-    @Description("Проверка создания курьера без пароля") // описание теста
+    @DisplayName("Проверка создания курьера без пароля")
+    @Description("Проверка создания курьера без пароля")
     public void createCourierWithOutPasswordTest() {
         Courier courierWithOutPassword = new Courier("TestQA", "", "courierWithOutPassword");
         ValidatableResponse response = courierApi.create(courierWithOutPassword);

@@ -10,7 +10,13 @@ public class Courier {
         this.firstName = firstName;
     }
 
-    //get and set
+    public Courier(String login, String password) {
+        this.login = login;
+        this.password = password;
+    }
+
+    public Courier() {
+    }
     public String getLogin() {
         return login;
     }

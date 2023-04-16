@@ -11,7 +11,7 @@ import static org.junit.Assert.assertNotNull;
 
 
 @RunWith(Parameterized.class)
-public class createOrderTest { //Order
+public class CreateOrderTest {
 
     static OrderApi orderApi;
     final private String firstNameParam;
@@ -23,7 +23,7 @@ public class createOrderTest { //Order
     final private String deliveryDateParam;
     final private String commentParam;
     final private String colorParam;
-    public createOrderTest(String firstNameParam, String lastNameParam, String addressParam, String metroStationParam, String phoneParam, int rentTimeParam, String deliveryDateParam, String commentParam, String colorParam) {
+    public CreateOrderTest(String firstNameParam, String lastNameParam, String addressParam, String metroStationParam, String phoneParam, int rentTimeParam, String deliveryDateParam, String commentParam, String colorParam) {
         this.firstNameParam = firstNameParam;
         this.lastNameParam = lastNameParam;
         this.addressParam = addressParam;
